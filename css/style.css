@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar css start  */
+
+.navbar {
+    background-color: rgb(248, 248, 248);
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_email {
+    padding-left: 40px;
+}
+
+.Contact {
+    list-style: none;
+}
+
+.Contactus {
+    text-decoration: none;
+    background-color: #2596be;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 8px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+/* navbar css end */
+
+
+/* main css :start  */
+
+
+.main {
+    margin: 2.5rem;
+}
+
+
+/* detail css start  */
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container_1 {
+    width: 50%;
+}
+
+.heading {
+    font-size: 5vw;
+}
+
+.container_2 {
+    width: 50%;
+    align-self: flex-start;
+
+}
+
+.img {
+    width: 45vw;
+    height: 45vh;
+}
+
+.pera {
+    font-size: 2vw;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(180, 182, 29);
+    color: white;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* detail css end  */
+
+
+/* Course css start  */
+
+
+.container_3 {
+    margin-top: 5rem;
+    padding: 2rem 3rem 2rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 248, 248);
+}
+
+.educ_1 {
+    width: 44%;
+}
+
+.educ_1 h2 {
+    padding-top: 10px;
+    font-size: 3vw;
+}
+
+
+.icon1 {
+    display: inline-block;
+}
+
+.icon {
+    font-size: 28px;
+    color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon1 span {
+    font-size: 20px;
+}
+
+.icon1 p {
+    font-size: 14px;
+}
+
+.Course {
+    margin-left: 40px;
+}
+
+
+/* Course css end  */
+
+
+
+
+/* topcourses css start  */
+
+
+.topcourses {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.topcourses h3 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.topcourses p {
+    font-size: 30px;
+}
+
+
+/* topcourses css end  */
+
+
+
+
+
+
+/* Training css start  */
+
+
+
+
+.Training {
+    margin-top: 4rem;
+    padding: 2vw 1vw;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+}
+
+.app {
+    margin: 2rem 5rem 2rem 2rem;
+    padding: 2rem 2rem;
+    width: 30%;
+    background-color: #fefefe;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.img1 {
+    padding: 0.4vw;
+    /* height: 15vh; */
+    width: 20vw;
+}
+
+.app h2 {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.butt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: rgba(20, 20, 218, 0.745);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.aa {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Flutter {
+    margin-top: 3vw;
+}
+
+.Flutter h2 {
+    font-size: 3vw;
+}
+
+.p1 {
+    color: rgba(17, 17, 17, 0.611);
+    font-size: 16px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.p2 {
+    color: rgb(208 53 53);
+    margin-bottom: 2vw;
+}
+
+.p3 {
+    font-weight: 900;
+    margin-bottom: 2vw;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+.butto1 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+/* Training css end  */
+
+
+
+
+
+/* Project css start  */
+
+
+.Project {
+    margin-top: 4rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: rgb(231, 209, 13);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 34px;
+}
+
+
+.butto {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 11px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+#Flutter {
+    width: 50%;
+    margin-right: 8vw;
+}
+
+/* Project css end  */
+
+
+/* job css start  */
+
+.job {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    margin-top: 5rem;
+}
+
+.job_div {
+    padding: 0 2rem;
+}
+
+.jobimg {
+    width: 5rem;
+}
+
+.jobhrading {
+    color: blue;
+}
+
+/* job css end  */
+
+
+
+/* ADDRESS css start  */
+
+.adde_div {
+    background-color: #2596BE;
+    display: flex;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.adde_div h2 {
+    color: #D3E41F;
+    padding: 1rem 0;
+}
+
+.adde_div p {
+    color: white;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+#add_email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9rem;
+    padding-top: 5rem;
+    color: white;
+    font-size: 17px;
+}
+
+.add_em {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#phone {
+    padding-top: 7px;
+}
+
+#add_p {
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-left: 2rem;
+}
+
+
+/* ADDRESS css end  */
+
+
+
+/* footer css start  */
+.footer {
+    text-align: center;
+    background: #f1f102;
+    line-height: 40px;
+}
+
+.footer i {
+    font-size: 40px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* footer css end  */
+
+
+
+
+/* responsive   */
+
+
+
+/* Course css start  */
+
+@media (max-width:1320px) {
+    .container_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .educ_1 {
+        width: 100%;
+    }
+
+    .educ_1 p {
+        font-size: 5vw;
+    }
+
+    .educ_1 h2 {
+        padding-top: 10px;
+        font-size: 9vw;
+    }
+
+
+}
+
+@media (max-width:1050px) {
+    .Training {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app {
+        width: 50%;
+        margin: 2rem 2rem 2rem 2rem;
+    }
+
+    .img1 {
+        padding-left: 4rem;
+        width: 16rem;
+    }
+
+    .app h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .butt {
+        margin-top: 2rem;
+    }
+
+    .button1 {
+        font-size: xx-large;
+        padding: 8px;
+    }
+
+    .button2 {
+        font-size: xx-large;
+        padding: 8px;
+    }
+
+    .aa {
+        padding: 0 2rem;
+    }
+
+    .Flutter h2 {
+        font-size: 6vw;
+    }
+
+    #p {
+        font-size: 30px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        width: 200px;
+        text-align: center;
+    }
+
+    #button {
+        padding: 15px;
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+
+    .manimg {
+        padding-top: 8rem;
+    }
+
+    .Project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Flutter {
+        width: 100%;
+        margin-right: 0vw;
+    }
+
+    #pra {
+        font-size: 30px;
+    }
+
+    #butto {
+        padding: 15px;
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+
+
+
+    /* job css start  */
+
+    .job {
+        flex-direction: column;
+    }
+
+    .jobimg {
+        width: 20rem;
+    }
+
+    .jobhrading {
+        padding-bottom: 1rem;
+        font-size: 36px;
+    }
+
+    .job_div p {
+        font-size: 19px;
+        padding-bottom: 1rem;
+    }
+
+    /* job css end  */
+
+
+
+    /* address css start  */
+
+    .adde_div{
+        flex-direction: column;
+    }
+
+    #add_email {
+        margin-left: 0rem;
+        padding-top: 1rem;
+        width: 60%;
+    }
+
+    /* address css end  */
+}
+
+@media (max-width:850px) {
+    .img1 {
+        padding-left: 1rem;
+        width: 16rem;
+    }
+
+    .app h2 {
+        font-size: 2rem;
+    }
+}
